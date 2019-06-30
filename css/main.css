@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+   /* line-height: 1.8;*/
+   background: #232B2B;
+   /*background-image: images/others/b.jpg*/
+    font-family: 'Montserrat', sans-serif;
+}
+#navbar{
+
+
+    margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+   /* margin-top: 20px;*/
+
+  top: 0;
+    height: auto;
+   border: 1px solid rgba(255, 255, 255, 0.27);
+    text-align: center;
+}
+ #navbar a:link, a:visited {
+  overflow: auto;
+  color: #DC3D24;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#navbar a:hover, a:active {
+  color: blue;
+  /*background-color: white;*/
+}
+#footer{
+
+     
+}
+#cols {
+   /* border: solid 2px red;*/
+    /*width: 600px;*/
+    /*margin: 40px auto;*/
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    color: white;
+  text-align: center;
+  text-decoration: none;
+  height: auto;
+}
+
+#left {
+   /* border: solid 1px blue;*/
+    width: 33%;
+   /* height: 300px;*/
+   /* background-color: green;*/
+    float: left;
+}
+
+#mid {
+    width: 33%;
+    /*height: 300px;*/
+    float: left;
+   /* border: solid 1px red;*/
+   /* background-color: blue;*/
+}
+
+#right {
+    /*border: solid 1px blue;*/
+    width: 33%;
+   /* height: 300px;*/
+    float: left;
+    text-decoration: none;
+    /*background-color: red;*/
+
+}
+.active{
+   color: blue;
+  background-color: white;
+}
+
+
+
+
+
+
+
+/*====== Jumbotron Section Start ======*/
+
+.welcome {
+    margin: 0;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/others/b.jpg");
+}
+
+.inner{
+    color: white;
+    text-align: center;
+}
+
+.welcome h1 {
+    font-size: 92px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcome h3 {
+    font-size: 46px;
+    margin: 0 0;
+    padding-bottom: 25px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcome p {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+/*====== Jumbotron Section Ended ======*/
+
+
+
+
+
+
+/*====== Services Section Start ======*/
+
+#contact {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+   /* background: black;*/
+  
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+   
+    
+    /*margin: 30px*/
+}
+
+#contact .inner {
+    height: auto;
+    margin-bottom: 50px;
+    padding: 40px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    background: black;
+}
+
+#contact .inner h2 {
+    color: white;
+    font-family: Trattatello, fantasy;
+    font-size: 47.03px;
+    display: inline-block;
+}
+
+#contact .inner h3 {
+    color: white;
+    font-size: 23px;
+    margin-top: 13px;
+    font-family: Trattatello, fantasy;
+}
+
+#butn {
+  background-color: white; /* Green */
+  border: none;
+  color: #DC3D24;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-style: sans-serif;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+/*====== Services Section Ended ======*/
+
+
+
+
+
+/*====== Blog Section Start ======*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  /*padding: 20px;*/
+  height: 300px; /* Should be removed. Only for demonstration */
+ /* border:2px solid white;*/
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*.post{
+  padding :20px;
+  border:1px white solid;
+  border-radius: 2px;
+}*/
+.blogimages{
+  height: 100%; 
+  width: 100%; 
+  object-fit: contain; 
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  #F2552C; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #E3AE57;
+}
