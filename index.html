@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+ <style type="text/css">/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(images/simple-pre-loader/simple-pre-loader/images/loader-128x/Preloader_3.gif) center no-repeat #fff;
+}</style>
+    <script type="text/javascript">
+      ////////////////////////////////////////////////////////////////////////////////////////////
+     
+
+//paste this code under the head tag or in a separate js file.
+  // Wait for window load
+  $(window).load(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");;
+  });
+</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="description" content="froggy joys ">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="u17306192">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>froggy</title>
+    <!-- styles and css-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+
+
+
+<body >   <div class="se-pre-con"></div>
+<!-- Navbar Section Start-->   
+<nav id="navbar">
+  <div  >
+       <div style="float: left; margin-left: 100px; "><img  src="images/logo/frog6.png">froggy.cs</div>
+       <a class="active" href="index.php">Home</a>
+       <a href="pages/discover.php">Discover</a>
+       <a href="pages/featured.php">Featured</a>
+       <a href="pages/top.php">Top Rated</a>
+       <a href="pages/latest.php">latest Events</a>
+       <a href="pages/calendar.php">Calendar</a>
+  </div>
+</nav>
+<!-- Navbar Section Ended -->
+
+
+<!-- section for introduction and welcome-->
+<section class="welcome"  >
+<div>
+    <div>
+      <div class="inner" >
+         <h1>Welcome to froggy.com</h1>      
+         <h3>the best movie data base</h3>
+      </div>
+    </div>
+</div>
+</section>
+<!--  end of section-->
+
+
+
+
+
+<!-- Contact Section Start -->
+<section id="contact">
+    <div>
+        <div class="inner">
+            <div >
+                <h2>Got any trouble accessing?</h2><br>
+                <button id="butn">Contact Us</button>
+            </div>
+        </div>  
+    </div>
+</section>
+<!-- Contact Section Ended -->
+
+
+
+<!-- Footer Section Start -->
+<footer id="footer">
+        <div id="cols">
+            <div class="threec" id="left">
+                <div><img  src="images/logo/frog.png"></div>
+                
+            </div>
+            <div class="threec" id="mid">
+                <h5>Our office address</h5>
+                <address>
+                    UP CS Pretoria<br/>
+                    +254716805508<br/>
+                    <a href="#">u17306192@tuks.ac.za</a> 
+                </address>
+            </div>
+            <div class="threec" id="right">
+                <h5>Site Links</h5>
+                <ul >
+                    <li>
+                        <a href="index.php">Home</a>
+                    </li>
+                    <li>
+                        <a href="pages/discover.php">Discover</a>
+                    </li>
+                    <li>
+                        <a href="pages/featured.php">Featured</a>
+                    </li>
+                    <li>
+                        <a href="pages/top.php">Top Rated</a>
+                    </li>
+                    <li>
+                        <a href="pages/latest.php">latest Events</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</footer>                        
+  </body>
+</html>
